@@ -8,17 +8,17 @@ spring:
     #协议
     protocol: smtp
     #用户名 即qq邮箱
-    username: 1337071880@qq.com
+    username: 
     #授权码
-    password: rcweaxeorceefeji
+    password: 
     #端口
     port: 25
   #rabbit mq 依赖
   rabbitmq:
     host: 120.76.57.148
     port: 5672
-    username: admin
-    password: admin
+    username: 
+    password: 
     virtual-host: /
   #redis配置
   redis:
