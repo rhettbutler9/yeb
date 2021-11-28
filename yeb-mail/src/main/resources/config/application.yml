@@ -1,0 +1,36 @@
+server:
+  port: 8082
+spring:
+  mail:
+    default-encoding: UTF-8
+    #服务器地址
+    host: smtp.qq.com
+    #协议
+    protocol: smtp
+    #用户名 即qq邮箱
+    username: 1337071880@qq.com
+    #授权码
+    password: rcweaxeorceefeji
+    #端口
+    port: 25
+  #rabbit mq 依赖
+  rabbitmq:
+    host: 120.76.57.148
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+  #redis配置
+  redis:
+    host: 120.76.57.148
+    database: 0
+    port: 6379
+    timeout: 3000ms
+    lettuce:
+      pool:
+        #最大连接数
+        max-active: 1024
+        #最大空闲连接
+        max-idle: 200
+        #最大等待时间,负数表示没有限制
+        max-wait: 10000ms
