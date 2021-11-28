@@ -15,9 +15,9 @@ spring:
   # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://120.76.57.148:3306/yeb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
-    username: root
-    password: IXJoeSFodGoha2shNTIx
+    url: jdbc:mysql://公网ip:3306/yeb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
+    username: 
+    password: 
     hikari:
       # 连接池名
       pool-name: DateHikariCP
@@ -39,8 +39,8 @@ spring:
   rabbitmq:
     host: 120.76.57.148
     port: 5672
-    username: admin
-    password: admin
+    username: 
+    password: 
     virtual-host: /
     #消息失败回调
     publisher-returns: true
